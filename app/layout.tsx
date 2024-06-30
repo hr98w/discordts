@@ -44,7 +44,7 @@ export default function RootLayout({
           fontSen.className,
         )}
       >
-        <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
+        <Providers themeProps={{ attribute: "class", defaultTheme: "light" }}>
           <div className="relative flex flex-col bg-[#424347]" >
           {/* h-screen */}
             <Navbar />

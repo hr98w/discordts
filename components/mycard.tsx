@@ -28,7 +28,6 @@ export const MyCard: React.FC<CardProps> = ({title, result, timestamp}) => {
           } 
           w-80 h-20
           sm:w-80 sm:h-32
-          
           bg-[#6F7BF5] text-[#EDEEF0] hover:text-[#6F7BF5] p-1 rounded shadow-2xl gap-0`}
           onClick={() => {
             setEffect(true);
