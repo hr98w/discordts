@@ -9,7 +9,6 @@ import { MyCard } from "./mycard";
 import { RestLogo } from "./icons"
 import {Tooltip} from "@nextui-org/tooltip";
 import { fontSans } from "@/config/fonts";
-import clsx from "clsx";
 
 
 

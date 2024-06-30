@@ -10,7 +10,7 @@ import { Faq } from "@/components/faq";
 
 export default function Home() {
   return (
-    <section className="flex flex-col items-center justify-center w-full gap-4">
+    <section className="py-4 flex flex-col items-center justify-center w-full gap-4">
       
       {/* <div className="inline-block max-w-lg text-center justify-center">
         <h1 className={title()}>Make&nbsp;</h1>
@@ -46,13 +46,13 @@ export default function Home() {
         </Link>
       </div> */}
 
-      <div className="flex md:w-3/4 bg-[#2D2F33] rounded-2xl flex-col justify-center">
+      <div className="flex md:w-3/4 bg-[#2D2F33] rounded-2xl flex-col justify-center drop-shadow-xl">
         <h1 className="text-center px-8 text-[#EDEEF0] font-bold text-3xl p-2 py-8">Discord Timestamp Generator</h1>
         <MyDatePicker/>
       </div>
 
 
-      <div className="flex md:w-3/4 bg-[#2D2F33] rounded-xl">
+      <div className="flex md:w-3/4 bg-[#2D2F33] rounded-2xl drop-shadow-xl">
         <Faq/>
       </div>
       

@@ -8,6 +8,8 @@ import { Providers } from "./providers";
 import { siteConfig } from "@/config/site";
 import { fontPoppins, fontSen } from "@/config/fonts";
 import { Navbar } from "@/components/navbar";
+import { Analytics } from "@vercel/analytics/react"
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: {
@@ -64,6 +66,17 @@ export default function RootLayout({
             </footer> */}
           </div>
         </Providers>
+        <Analytics/>
+        <Script strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=G-F5R2TBL93D5`} />
+      <Script strategy="lazyOnload">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-F5R2TBL93D',{
+          page_path: window.location.pathname});
+        `}
+      </Script>
       </body>
     </html>
   );
