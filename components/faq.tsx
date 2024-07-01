@@ -31,7 +31,7 @@ export const Faq = () => {
         </div>
 
         <div className="flex flex-col gap-1">
-        <h3>Q: What's the difference between DiscordTS.com and hammertime discord?</h3>
+        <h3>Q: What is the difference between DiscordTS.com and hammertime discord?</h3>
         <p className="text-[#888888]">A: DiscordTS.com is an alternative to hammer time discord.</p>
         </div>
       </div>
