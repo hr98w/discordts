@@ -25,9 +25,9 @@ export const MyCard: React.FC<CardProps> = ({title, result, timestamp}) => {
           className={`${
             effect && "animate-wiggle"
           } 
-          w-80 h-20
+          w-80 h-24
           sm:w-80 sm:h-32
-          bg-[#6F7BF5] text-[#EDEEF0] hover:text-[#6F7BF5] p-1 rounded-lg shadow-2xl gap-0`}
+          bg-[#6F7BF5] text-[#EDEEF0] md:hover:text-[#6F7BF5] p-1 rounded-lg shadow-2xl gap-0`}
           onClick={() => {
             setEffect(true);
           }}
