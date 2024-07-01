@@ -1,4 +1,5 @@
 "use client";
+import { Link } from "@nextui-org/link";
 
 export const Faq = () => {
 
@@ -16,7 +17,7 @@ export const Faq = () => {
     
         <div className="flex flex-col gap-1">
         <h3>Q: What is Discord timestamps?</h3>
-        <p className="text-[#888888]">A: Discord time stamp is a formatted string that represents a specific date and time. It can be embedded in your messages to display dates and times in a standardized format across different time zones.</p>
+        <p className="text-[#888888]">A: <Link href="/timestamp">Discord time stamp</Link> is a formatted string that represents a specific date and time. It can be embedded in your messages to display dates and times in a standardized format across different time zones.</p>
         </div>
 
         <div className="flex flex-col gap-1">

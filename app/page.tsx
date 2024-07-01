@@ -8,6 +8,7 @@ import { MyDatePicker } from "@/components/datapicker"
 import { Faq } from "@/components/faq";
 
 
+
 export default function Home() {
   return (
     <section className="py-4 flex flex-col items-center justify-center w-full gap-4">
