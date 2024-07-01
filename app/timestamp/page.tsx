@@ -20,7 +20,7 @@ export default function AboutPage() {
             </p>
 
             <h2>Discord Timestamp Styles</h2>
-            <p className="text-[#888888]">Timestamps are expressed in seconds and display the given timestamp in the user's timezone and locale. Different format and example result are shown as follows:
+            <p className="text-[#888888]">Timestamps are expressed in seconds and display the given timestamp in the user timezone and locale. Different format and example result are shown as follows:
             </p>
             <div className="p-4">
             <Table className="text-[#888888]" aria-label="Example static collection table">
