@@ -6,7 +6,7 @@ import clsx from "clsx";
 import { Providers } from "./providers";
 
 import { siteConfig } from "@/config/site";
-import { fontPoppins, fontSen } from "@/config/fonts";
+import { fontSen } from "@/config/fonts";
 import { Navbar } from "@/components/navbar";
 import { Analytics } from "@vercel/analytics/react"
 import Script from "next/script";
@@ -14,7 +14,7 @@ import Script from "next/script";
 export const metadata: Metadata = {
   title: {
     default: siteConfig.name,
-    template: `%s - ${siteConfig.name}`,
+    template: `%s - DiscordTS.com`,
   },
   description: siteConfig.description,
   icons: {
