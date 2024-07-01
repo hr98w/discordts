@@ -3,7 +3,7 @@ import React from "react";
 import { DatePicker} from "@nextui-org/date-picker";
 import {now, getLocalTimeZone } from "@internationalized/date";
 import {I18nProvider} from "@react-aria/i18n";
-import {Button} from "@nextui-org/button";
+import {Button, ButtonGroup} from "@nextui-org/button";
 import moment, {Moment} from 'moment';
 import { MyCard } from "./mycard";
 import { RestLogo } from "./icons"
@@ -20,6 +20,7 @@ interface ResultItem {
 }
 
 export const MyDatePicker = () => {
+  // moment.locale("zh-CN");
   const formatMoment = (m: Moment): ResultItem[] => {
     return [
       { title: "Short Time", result: m.format("LT"), timestamp: `<t:${m.unix()}:t>`},
@@ -40,6 +41,7 @@ export const MyDatePicker = () => {
   const setToCurrentTime = () => {
     setDate(nowDate);
   };
+
 
   React.useEffect(() => {
     setList(formatMoment(moment(date.toDate())));
@@ -65,8 +67,9 @@ export const MyDatePicker = () => {
             </p>
       </div> */}
       <div className="flex items-center flex-row gap-4 p-2">
-        {/* <I18nProvider locale="hi-IN-u-ca-indian"> */}
-        <div className={fontSans.className}>    
+        
+        <div className={fontSans.className}>   
+        <I18nProvider locale=""> 
           <DatePicker
             showMonthAndYearPickers
             granularity="minute"
@@ -76,9 +79,9 @@ export const MyDatePicker = () => {
             radius="lg"
             onChange={setDate}
           />
-        {/* </I18nProvider> */}
+        </I18nProvider>
         </div>
- 
+      
  
       <Tooltip color="secondary" content="Set to current time" closeDelay={0}>
         <Button 
@@ -90,9 +93,30 @@ export const MyDatePicker = () => {
           <RestLogo />
         </Button> 
       </Tooltip>
-      
+    
 
       </div>
+
+      {/* <div>
+      <ButtonGroup radius="none" color="primary" variant="shadow">
+      <div className="flex flex-col">
+      <div>
+      <Button className="w-28 h-8" onPress={()=>{setDate(date.add({ days: 1 }))}}>1 day later</Button>
+      <Button className="w-28 h-8" onPress={()=>{setDate(date.add({ weeks: 1 }))}}>1 week later</Button>
+      <Button className="w-28 h-8" onPress={()=>{setDate(date.add({ months: 1 }))}}>1 month later</Button>
+      <Button className="w-28 h-8" onPress={()=>{setDate(date.add({ years: 1 }))}}>1 year later</Button>
+
+      </div>
+      <div>
+      <Button className="w-28 h-8" onPress={()=>{setDate(date.subtract({ days: 1 }))}}>1 day ago</Button>
+      <Button className="w-28 h-8" onPress={()=>{setDate(date.subtract({ weeks: 1 }))}}>1 week ago</Button>
+      <Button className="w-28 h-8" onPress={()=>{setDate(date.subtract({ months: 1 }))}}>1 month ago</Button>
+      <Button className="w-28 h-8" onPress={()=>{setDate(date.subtract({ years: 1 }))}}>1 year ago</Button>
+
+      </div>
+      </div>
+      </ButtonGroup>
+      </div> */}
 
       <div>
         <div>
