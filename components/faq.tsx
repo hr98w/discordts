@@ -29,6 +29,11 @@ export const Faq = () => {
         <h3>Q: Does DiscordTS.com support different timezones?</h3>
         <p className="text-[#888888]">A: Currently, we do not support a discord timezone converter. We can only generate discord local time at the moment, but we plan to add this feature in the future.</p>
         </div>
+
+        <div className="flex flex-col gap-1">
+        <h3>Q: What's the difference between DiscordTS.com and hammertime discord?</h3>
+        <p className="text-[#888888]">A: DiscordTS.com is an alternative to hammer time discord.</p>
+        </div>
       </div>
     </div>
   );

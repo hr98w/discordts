@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     icon: "/favicon.svg",
   },
   alternates: {
-    canonical: 'DiscordTS.com',
+    canonical: 'https://discordts.com',
 }
 };
 
