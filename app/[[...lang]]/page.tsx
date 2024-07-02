@@ -24,6 +24,7 @@ export default async function Home(
     lng = lang[0]
   }
   const dict = await getDictionary(lng)
+
   return (
     <section className="py-4 flex flex-col items-center justify-center w-full gap-4">
 

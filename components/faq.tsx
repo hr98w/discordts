@@ -21,7 +21,7 @@ export const Faq : React.FC<Props> = ({dict}) => {
     
         <div className="flex flex-col gap-1">
         <h3>Q: {dict["FAQ"]["b"]["q"]}</h3>
-        <p className="text-[#888888]">A: <Link href="/timestamp">{dict["FAQ"]["b"]["a1"]}</Link>  {dict["FAQ"]["b"]["a2"]}</p>
+        <p className="text-[#888888]">A: <Link href="https://discord.com/developers/docs/reference#message-formatting-timestamp-styles">{dict["FAQ"]["b"]["a1"]}</Link> {dict["FAQ"]["b"]["a2"]}</p>
         </div>
 
         <div className="flex flex-col gap-1">

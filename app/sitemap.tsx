@@ -46,9 +46,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: 'https://discordts.com/fr',
       lastModified: new Date(),
     },
-    {
-      url: 'https://discordts.com/timestamp',
-      lastModified: new Date(),
-    },
   ]
 }
