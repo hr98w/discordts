@@ -4,7 +4,8 @@ import { DatePicker} from "@nextui-org/date-picker";
 import {now, getLocalTimeZone } from "@internationalized/date";
 import {I18nProvider} from "@react-aria/i18n";
 import {Button, ButtonGroup} from "@nextui-org/button";
-import moment, {Moment} from 'moment';
+import {Moment} from 'moment';
+import moment from 'moment/min/moment-with-locales';
 import { MyCard } from "./mycard";
 import { RestLogo } from "./icons"
 import {Tooltip} from "@nextui-org/tooltip";
@@ -23,14 +24,8 @@ interface ResultItem {
 }
 
 export const MyDatePicker : React.FC<Props> = ( {lang, dict} ) => {
-
+  moment.locale(lang);
   const formatMoment = (m: Moment): ResultItem[] => {
-    console.log("10086")
-    console.log(lang)
-    moment.locale(lang);
-    console.log(lang)
-    console.log("10086")
-
     return [
       { title: dict["shorttime"], result: m.format("LT"), timestamp: `<t:${m.unix()}:t>`},
       { title: dict["longtime"], result: m.format("LTS"), timestamp: `<t:${m.unix()}:T>`},
