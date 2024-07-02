@@ -4,7 +4,7 @@ import { DatePicker} from "@nextui-org/date-picker";
 import {now, getLocalTimeZone } from "@internationalized/date";
 import {I18nProvider} from "@react-aria/i18n";
 import {Button, ButtonGroup} from "@nextui-org/button";
-import {Moment} from 'moment';
+import  {Moment} from 'moment';
 import moment from 'moment/min/moment-with-locales';
 import { MyCard } from "./mycard";
 import { RestLogo } from "./icons"
