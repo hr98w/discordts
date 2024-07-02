@@ -10,7 +10,10 @@ import { RestLogo } from "./icons"
 import {Tooltip} from "@nextui-org/tooltip";
 import { fontSans } from "@/config/fonts";
 
-
+interface Props {
+  lang: string;
+  dict: any
+}
 
 
 interface ResultItem {
@@ -19,18 +22,18 @@ interface ResultItem {
   timestamp: string;
 }
 
-export const MyDatePicker = () => {
-  // moment.locale("zh-CN");
+export const MyDatePicker : React.FC<Props> = ( {lang, dict} ) => {
+  moment.locale(lang);
   const formatMoment = (m: Moment): ResultItem[] => {
     return [
-      { title: "Short Time", result: m.format("LT"), timestamp: `<t:${m.unix()}:t>`},
-      { title: "Long Time", result: m.format("LTS"), timestamp: `<t:${m.unix()}:T>`},
-      { title: "Short Date", result: m.format("L") , timestamp: `<t:${m.unix()}:d>`},
-      { title: "Long Date", result: m.format("LL"), timestamp: `<t:${m.unix()}:D>`},
-      { title: "Short Date/Time", result: m.format("LLL"), timestamp: `<t:${m.unix()}:f>`},
-      { title: "Long Date/Time", result: m.format("LLLL"), timestamp: `<t:${m.unix()}:F>`},
-      { title: "Relative Time", result: m.fromNow(), timestamp: `<t:${m.unix()}:R>`},
-      { title: "Timestamp", result: `${m.unix()}`, timestamp: `${m.unix()}`},
+      { title: dict["shorttime"], result: m.format("LT"), timestamp: `<t:${m.unix()}:t>`},
+      { title: dict["longtime"], result: m.format("LTS"), timestamp: `<t:${m.unix()}:T>`},
+      { title: dict["shortdate"], result: m.format("L") , timestamp: `<t:${m.unix()}:d>`},
+      { title: dict["longdate"], result: m.format("LL"), timestamp: `<t:${m.unix()}:D>`},
+      { title: dict["shortdt"], result: m.format("LLL"), timestamp: `<t:${m.unix()}:f>`},
+      { title: dict["longdt"], result: m.format("LLLL"), timestamp: `<t:${m.unix()}:F>`},
+      { title: dict["rt"], result: m.fromNow(), timestamp: `<t:${m.unix()}:R>`},
+      { title: dict["timestamp"], result: `${m.unix()}`, timestamp: `${m.unix()}`},
     ];
   };
 
@@ -58,8 +61,8 @@ export const MyDatePicker = () => {
   }, []);
 
 
-
   return (
+    
     <div className="flex flex-col justify-center items-center gap-4">
       {/* <div>
           <p className="text-center px-8 text-[#EDEEF0] font-bold text-2xl p-2">
@@ -69,12 +72,12 @@ export const MyDatePicker = () => {
       <div className="flex items-center flex-row gap-4 p-2">
         
         <div className={fontSans.className}>   
-        <I18nProvider locale=""> 
+        <I18nProvider locale={lang}> 
           <DatePicker
             showMonthAndYearPickers
             granularity="minute"
             value={date}
-            label="Select date and time"
+            label={dict["datetime"]}
             size="lg"
             radius="lg"
             onChange={setDate}
@@ -83,7 +86,7 @@ export const MyDatePicker = () => {
         </div>
       
  
-      <Tooltip color="secondary" content="Set to current time" closeDelay={0}>
+      <Tooltip color="secondary" content={dict["stct"]} closeDelay={0}>
         <Button 
         className="hover:scale-125"
         size="md"
@@ -121,13 +124,13 @@ export const MyDatePicker = () => {
       <div>
         <div>
           <h2 className="text-left px-8 pt-8 text-[#EDEEF0] font-bold text-2xl">
-            Click to copy the timestamp to embed in your discord message
+            {dict["text-instruction"]}
             </h2>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 p-8">
           {
             list.map(
-              (item, index) => <MyCard key={index} title={item.title} result={item.result} timestamp={item.timestamp} />
+              (item, index) => <MyCard key={index} title={item.title} result={item.result} timestamp={item.timestamp} dict={dict} />
             )
           }
           {/* <MyCard title="Current" result={moment(nowDate.toDate()).unix().toString()}  timestamp="" /> */}

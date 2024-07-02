@@ -1,0 +1,40 @@
+{
+    "title": "Discord Zeitstempel Generator",
+    "description": "Erzeugen und konvertieren Sie das Datum in einen Zeitstempel, um es in eine Discord-Nachricht einzubetten.",
+    "text-instruction": "Klicken Sie hier, um den Zeitstempel zum Einbetten in Ihre Discord-Nachricht zu kopieren",
+    "datetime": "Datum und Uhrzeit auswählen",
+    "shorttime": "Kurze Zeit",
+    "longtime": "Lange Zeit",
+    "shortdate": "Kurzes Datum",
+    "longdate": "Langes Datum",
+    "shortdt": "Kurzes Datum/Uhrzeit",
+    "longdt": "Langes Datum/Uhrzeit",
+    "rt": "Relative Zeit",
+    "timestamp": "Zeitstempel",
+    "stct": "Auf aktuelle Zeit setzen",
+    "ctc": "Klicken zum Kopieren",
+    "FAQ": {
+        "title": "FAQ zu Discord Zeitstempeln",
+        "a": {
+            "q": "Was ist DiscordTS.com?",
+            "a": "DiscordTS.com ist ein responsiver Discord Zeitstempel Generator, auch bekannt als Discord Zeitumwandler. Unser Ziel ist es, die praktischste Funktion zur Zeitstempelgenerierung bereitzustellen."
+        },
+        "b": {
+            "q": "Was sind Discord Zeitstempel?",
+            "a1": "Discord Zeitstempel",
+            "a2": " sind formatierte Zeichenfolgen, die ein bestimmtes Datum und eine bestimmte Uhrzeit darstellen. Sie können in Ihre Nachrichten eingebettet werden, um Datum und Uhrzeit in einem standardisierten Format über verschiedene Zeitzonen hinweg anzuzeigen."
+        },
+        "c": {
+            "q": "Wie erstelle ich Zeitstempel in Discord?",
+            "a": "Sie können unseren Discord Zeitstempel Generator verwenden. Geben Sie einfach das gewünschte Datum und die Uhrzeit ein, und das Tool generiert einen formatierten Zeitstempel, den Sie in Ihre Discord-Nachrichten kopieren und einfügen können."
+        },
+        "d": {
+            "q": "Unterstützt DiscordTS.com verschiedene Zeitzonen?",
+            "a": "Derzeit unterstützen wir keinen Discord Zeitzonen-Konverter. Wir können derzeit nur die lokale Discord-Zeit generieren, planen jedoch, diese Funktion in Zukunft hinzuzufügen."
+        },
+        "e": {
+            "q": "Was ist der Unterschied zwischen DiscordTS.com und hammertime discord?",
+            "a": "DiscordTS.com ist eine Alternative zu hammertime discord."
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "title": "Discord 時戳產生器",
+    "description": "生成和转换日期为时间戳以嵌入在 Discord 消息中.",
+    "text-instruction": "點擊以複製時戳以嵌入您的 Discord 訊息中",
+    "datetime": "選擇日期和時間",
+    "shorttime": "短時間",
+    "longtime": "長時間",
+    "shortdate": "短日期",
+    "longdate": "長日期",
+    "shortdt": "短日期/時間",
+    "longdt": "長日期/時間",
+    "rt": "相對時間",
+    "timestamp": "時間戳",
+    "stct": "設置為當前時間",
+    "ctc": "點擊以複製",
+    "FAQ": {
+        "title": "有關 Discord 時戳的常見問題",
+        "a": {
+            "q": "DiscordTS.com 是什麼？",
+            "a": "DiscordTS.com 是一個響應式的 Discord 時戳生成器，也被稱為 Discord 時間轉換器。我們的目標是提供最便捷的時間戳生成功能。"
+        },
+        "b": {
+            "q": "什麼是 Discord 時戳？",
+            "a1": "Discord 時戳",
+            "a2": " 是一個格式化的字符串，表示特定的日期和時間。它可以嵌入您的消息中，以標準格式顯示不同時區的日期和時間。"
+        },
+        "c": {
+            "q": "如何在 Discord 上製作時戳？",
+            "a": "您可以使用我們的 Discord 時戳生成器。只需輸入您想要的日期和時間，該工具將提供一個格式化的時戳，您可以將其複製並粘貼到您的 Discord 訊息中。"
+        },
+        "d": {
+            "q": "DiscordTS.com 是否支持不同的時區？",
+            "a": "目前，我們不支持 Discord 時區轉換器。目前，我們只能生成 Discord 的本地時間，但我們計劃在未來添加此功能。"
+        },
+        "e": {
+            "q": "DiscordTS.com 和 hammertime discord 有什麼區別？",
+            "a": "DiscordTS.com 是 hammertime discord 的替代選擇。"
+        }
+    }
+}

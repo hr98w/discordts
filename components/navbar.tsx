@@ -8,16 +8,18 @@ import {
   NavbarMenuItem,
 } from "@nextui-org/navbar";
 import NextLink from "next/link";
+import { LangSwitcher } from "./langswitcher";
 
 
 export const Navbar = () => {
   return (
-    <NextUINavbar shouldHideOnScroll className="hidden sm:block bg-[#5865F2]" maxWidth="xl" position="sticky">
+    <NextUINavbar className="shouldHideOnScroll bg-[#5865F2]" maxWidth="xl" position="sticky">
+      {/* hidden sm:block */}
       <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
         <NavbarBrand as="li" className="gap-3 max-w-fit">
           <NextLink className="flex justify-start items-center gap-1" href="/">
             {/* <Logo /> */}
-            <p className="text-white font-bold text-2xl text-inherit">DiscordTS.com</p>
+            <p suppressHydrationWarning className="text-white font-bold text-2xl text-inherit">DiscordTS.com</p>
           </NextLink>
         </NavbarBrand>
         {/* <ul className="hidden lg:flex gap-4 justify-start ml-2">
@@ -40,10 +42,9 @@ export const Navbar = () => {
 
 
       <NavbarContent
-        className="hidden sm:flex basis-1/5 sm:basis-full"
-        justify="end"
+        className="basis-1/5 sm:basis-full" justify="end"
       >
-        <NavbarItem className="hidden sm:flex gap-2">
+        {/* <NavbarItem className="hidden sm:flex gap-2"> */}
           {/* <Link isExternal aria-label="Twitter" href={siteConfig.links.twitter}>
             <TwitterIcon className="text-default-500" />
           </Link> */}
@@ -54,7 +55,7 @@ export const Navbar = () => {
             <GithubIcon className="text-default-500" />
           </Link> */}
           {/* <ThemeSwitch /> */}
-        </NavbarItem>
+        {/* </NavbarItem> */}
         {/* <NavbarItem className="hidden lg:flex">{searchInput}</NavbarItem>
         <NavbarItem className="hidden md:flex">
           <Button
@@ -68,6 +69,7 @@ export const Navbar = () => {
             Sponsor
           </Button>
         </NavbarItem> */}
+        <LangSwitcher/>
       </NavbarContent>
 
       {/* <NavbarContent className="sm:hidden basis-1 pl-4" justify="end">

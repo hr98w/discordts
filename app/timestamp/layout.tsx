@@ -1,17 +1,16 @@
 import "@/styles/globals.css";
 import { Metadata, Viewport } from "next";
-import { Link } from "@nextui-org/link";
 import clsx from "clsx";
-
-import { Providers } from "./providers";
-
+import { Providers } from "../providers";
 import { siteConfig } from "@/config/site";
 import { fontSen } from "@/config/fonts";
 import { Navbar } from "@/components/navbar";
 import { Analytics } from "@vercel/analytics/react"
 import Script from "next/script";
+import { dir } from 'i18next'
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://discordts.com'),
   title: {
     default: siteConfig.name,
     template: `%s - DiscordTS.com`,
@@ -21,7 +20,7 @@ export const metadata: Metadata = {
     icon: "/favicon.svg",
   },
   alternates: {
-    canonical: 'https://discordts.com',
+    canonical: './',
 }
 };
 
@@ -34,11 +33,23 @@ export const viewport: Viewport = {
 
 export default function RootLayout({
   children,
+  params: {
+    lang
+  }
 }: {
   children: React.ReactNode;
+  params: {
+    lang : string[]
+  }
 }) {
+  let lng
+  if (!lang || lang.length === 0) {
+    lng = 'en'
+  } else {
+    lng = lang[0]
+  }
   return (
-    <html suppressHydrationWarning lang="en">
+    <html suppressHydrationWarning lang={lng} dir={dir(lng)}>
       <head />
       <body
         className={clsx(
@@ -53,17 +64,6 @@ export default function RootLayout({
             <main className="md:container md:mx-auto w-full flex-grow">
               {children}
             </main>
-            {/* <footer className="w-full flex items-center justify-center py-3">
-              <Link
-                isExternal
-                className="flex items-center gap-1 text-current"
-                href="https://nextui-docs-v2.vercel.app?utm_source=next-app-template"
-                title="nextui.org homepage"
-              >
-                <span className="text-default-600">Powered by</span>
-                <p className="text-primary">NextUI</p>
-              </Link>
-            </footer> */}
           </div>
         </Providers>
         <Analytics/>

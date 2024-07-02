@@ -1,0 +1,40 @@
+{
+    "title": "Generador de marcas de tiempo de Discord",
+    "description": "Generar y convertir la fecha a un timestamp para incrustar en un mensaje de Discord.",
+    "text-instruction": "Haz clic para copiar la marca de tiempo para incrustar en tu mensaje de Discord",
+    "datetime": "Seleccionar fecha y hora",
+    "shorttime": "Hora corta",
+    "longtime": "Hora larga",
+    "shortdate": "Fecha corta",
+    "longdate": "Fecha larga",
+    "shortdt": "Fecha/Hora corta",
+    "longdt": "Fecha/Hora larga",
+    "rt": "Tiempo relativo",
+    "timestamp": "Marca de tiempo",
+    "stct": "Establecer a la hora actual",
+    "ctc": "Haz clic para copiar",
+    "FAQ": {
+        "title": "Preguntas frecuentes sobre marcas de tiempo de Discord",
+        "a": {
+            "q": "¿Qué es DiscordTS.com?",
+            "a": "DiscordTS.com es un generador de marcas de tiempo para Discord receptivo, también conocido como convertidor de tiempo de Discord. Nuestro objetivo es proporcionar la funcionalidad más conveniente para la generación de marcas de tiempo."
+        },
+        "b": {
+            "q": "¿Qué son las marcas de tiempo de Discord?",
+            "a1": "La marca de tiempo de Discord",
+            "a2": " es una cadena formateada que representa una fecha y hora específicas. Puede ser incrustada en tus mensajes para mostrar fechas y horas en un formato estandarizado en diferentes zonas horarias."
+        },
+        "c": {
+            "q": "¿Cómo hacer marcas de tiempo en Discord?",
+            "a": "Puedes usar nuestro Generador de Marcas de Tiempo de Discord. Simplemente ingresa la fecha y hora que desees, y la herramienta proporcionará una marca de tiempo formateada que puedes copiar y pegar en tus mensajes de Discord."
+        },
+        "d": {
+            "q": "¿DiscordTS.com soporta diferentes zonas horarias?",
+            "a": "Actualmente, no soportamos un convertidor de zona horaria para Discord. Solo podemos generar la hora local de Discord en este momento, pero planeamos agregar esta función en el futuro."
+        },
+        "e": {
+            "q": "¿Cuál es la diferencia entre DiscordTS.com y hammertime discord?",
+            "a": "DiscordTS.com es una alternativa a hammertime discord."
+        }
+    }
+}

@@ -9,13 +9,14 @@ interface CardProps {
     title: string,
     result: string,
     timestamp: string,
+    dict: any
   }
 
-export const MyCard: React.FC<CardProps> = ({title, result, timestamp}) => {
+export const MyCard: React.FC<CardProps> = ({title, result, timestamp, dict}) => {
   const [effect, setEffect] = React.useState(false);
   return (
     <div className="flex gap-8 justify-center flex-wrap">
-        <Tooltip color="secondary" content="click to copy" closeDelay={0}>
+        <Tooltip color="secondary" content={dict["ctc"]} closeDelay={0}>
 
           <Card 
           isBlurred

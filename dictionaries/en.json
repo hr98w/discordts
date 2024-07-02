@@ -1,0 +1,40 @@
+{
+    "title": "Discord Timestamp Generator",
+    "description": "Generate and convert date to timestamp to embed in discord message.",
+    "text-instruction": "Click to copy the timestamp to embed in your discord message",
+    "datetime": "Select date and time",
+    "shorttime": "Short Time",
+    "longtime": "Long Time",
+    "shortdate": "Short Date",
+    "longdate": "Long Date",
+    "shortdt": "Short Date/Time",
+    "longdt": "Long Date/Time",
+    "rt": "Relative Time",
+    "timestamp": "Timestamp",
+    "stct": "Set to current time",
+    "ctc": "Click to copy",
+    "FAQ": {
+        "title": "FAQ About Discrod Timestamps",
+        "a": {
+            "q": "What is DiscordTS.com?",
+            "a": "DiscordTS.com is a responsive Discord timestamp generator, also known as a Discord time converter. Our aim is to provide the most convenient timestamp generation functionality."
+        },
+        "b": {
+            "q": "What is Discord timestamps?",
+            "a1": "Discord time stamp",
+            "a2": " is a formatted string that represents a specific date and time. It can be embedded in your messages to display dates and times in a standardized format across different time zones."
+        },
+        "c": {
+            "q": "How to do timestamps on discord?",
+            "a": "You can use our Discord Timestamp Generator. Simply enter the date and time you want, and the tool will provide a formatted timestamp that you can copy and paste into your Discord messages."
+        },
+        "d": {
+            "q": "Does DiscordTS.com support different timezones?",
+            "a": "Currently, we do not support a discord timezone converter. We can only generate discord local time at the moment, but we plan to add this feature in the future."
+        },
+        "e": {
+            "q": "What is the difference between DiscordTS.com and hammertime discord?",
+            "a": "DiscordTS.com is an alternative to hammer time discord."
+        }
+    }
+}

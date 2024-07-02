@@ -5,9 +5,6 @@ import { ExampleTable } from "./eampletable";
 export const metadata: Metadata = {
   title: "Discord Timestamp Documentation",
   description: "A timestamp is a sequence of characters or encoded information identifying times.",
-  alternates: {
-    canonical: 'https://discordts.com/timestamp',
-}
 };
 
 export default function AboutPage() {
