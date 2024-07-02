@@ -23,8 +23,9 @@ interface ResultItem {
 }
 
 export const MyDatePicker : React.FC<Props> = ( {lang, dict} ) => {
-  moment.locale(lang);
+
   const formatMoment = (m: Moment): ResultItem[] => {
+    moment.locale(lang);
     return [
       { title: dict["shorttime"], result: m.format("LT"), timestamp: `<t:${m.unix()}:t>`},
       { title: dict["longtime"], result: m.format("LTS"), timestamp: `<t:${m.unix()}:T>`},
