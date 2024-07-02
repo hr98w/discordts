@@ -25,7 +25,12 @@ interface ResultItem {
 export const MyDatePicker : React.FC<Props> = ( {lang, dict} ) => {
 
   const formatMoment = (m: Moment): ResultItem[] => {
+    console.log("10086")
+    console.log(lang)
     moment.locale(lang);
+    console.log(lang)
+    console.log("10086")
+
     return [
       { title: dict["shorttime"], result: m.format("LT"), timestamp: `<t:${m.unix()}:t>`},
       { title: dict["longtime"], result: m.format("LTS"), timestamp: `<t:${m.unix()}:T>`},
@@ -43,6 +48,7 @@ export const MyDatePicker : React.FC<Props> = ( {lang, dict} ) => {
   let [list, setList] = React.useState(formatMoment(moment(date.toDate())))
 
   const setToCurrentTime = () => {
+    setNowDate(now(getLocalTimeZone()));
     setDate(nowDate);
   };
 
@@ -53,13 +59,13 @@ export const MyDatePicker : React.FC<Props> = ( {lang, dict} ) => {
 
 
 
-  React.useEffect(() => {
-    const interval = setInterval(() => {
-      setNowDate(now(getLocalTimeZone()));
-    }, 1000);
+  // React.useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     setNowDate(now(getLocalTimeZone()));
+  //   }, 1000);
 
-    return () => clearInterval(interval);
-  }, []);
+  //   return () => clearInterval(interval);
+  // }, []);
 
 
   return (
