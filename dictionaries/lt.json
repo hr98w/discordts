@@ -1,0 +1,40 @@
+{
+    "title": "Discord Laiko Žymų Generatoriaus",
+    "description": "Generuoti ir konvertuoti datą į laiko žymą, kad būtų galima įterpti į Discord žinutę.",
+    "text-instruction": "Spustelėkite, kad nukopijuotumėte laiko žymą, kad įterptumėte į savo Discord žinutę",
+    "datetime": "Pasirinkite datą ir laiką",
+    "shorttime": "Trumpas Laikas",
+    "longtime": "Ilgas Laikas",
+    "shortdate": "Trumpa Data",
+    "longdate": "Ilga Data",
+    "shortdt": "Trumpa Data/Laikas",
+    "longdt": "Ilga Data/Laikas",
+    "rt": "Santykinis Laikas",
+    "timestamp": "Laiko Žyma",
+    "stct": "Nustatyti į dabartinį laiką",
+    "ctc": "Spustelėkite, kad kopijuotumėte",
+    "FAQ": {
+        "title": "DUK apie Discord Laiko Žymas",
+        "a": {
+            "q": "Kas yra DiscordTS.com?",
+            "a": "DiscordTS.com yra atsakingas Discord laiko žymų generatorius, taip pat žinomas kaip Discord laiko keitiklis. Mūsų tikslas yra suteikti patogiausią laiko žymų generavimo funkciją."
+        },
+        "b": {
+            "q": "Kas yra Discord laiko žymos?",
+            "a1": "Discord laiko žyma",
+            "a2": " yra formatuota eilutė, kuri reprezentuoja konkretų datą ir laiką. Ji gali būti įterpta į jūsų žinutes, kad parodytų datas ir laikus standartizuotu formatu per skirtingas laiko zonas."
+        },
+        "c": {
+            "q": "Kaip padaryti laiko žymas Discord?",
+            "a": "Galite naudoti mūsų Discord Laiko Žymų Generatorius. Tiesiog įveskite norimą datą ir laiką, o įrankis suteiks formatuotą laiko žymą, kurią galite kopijuoti ir įklijuoti į savo Discord žinutes."
+        },
+        "d": {
+            "q": "Ar DiscordTS.com palaiko skirtingas laiko zonas?",
+            "a": "Šiuo metu mes nepalaikome Discord laiko zonos keitiklio. Šiuo metu galime generuoti tik Discord vietinį laiką, tačiau ateityje planuojame pridėti šią funkciją."
+        },
+        "e": {
+            "q": "Kuo skiriasi DiscordTS.com ir hammertime discord?",
+            "a": "DiscordTS.com yra hammer time discord alternatyva."
+        }
+    }
+}

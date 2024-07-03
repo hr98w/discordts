@@ -1,0 +1,40 @@
+{
+    "title": "Discord Generator Vremenskih Oznaka",
+    "description": "Generirajte i pretvorite datum u vremensku oznaku za umetanje u Discord poruku.",
+    "text-instruction": "Kliknite da biste kopirali vremensku oznaku za umetanje u svoju Discord poruku",
+    "datetime": "Odaberite datum i vrijeme",
+    "shorttime": "Kratko Vrijeme",
+    "longtime": "Dugo Vrijeme",
+    "shortdate": "Kratki Datum",
+    "longdate": "Dugi Datum",
+    "shortdt": "Kratki Datum/Vrijeme",
+    "longdt": "Dugi Datum/Vrijeme",
+    "rt": "Relativno Vrijeme",
+    "timestamp": "Vremenska Oznaka",
+    "stct": "Postavi na trenutno vrijeme",
+    "ctc": "Kliknite za kopiranje",
+    "FAQ": {
+        "title": "Često postavljana pitanja o Discord vremenskim oznakama",
+        "a": {
+            "q": "Što je DiscordTS.com?",
+            "a": "DiscordTS.com je responzivni generator vremenskih oznaka za Discord, također poznat kao pretvarač vremena za Discord. Naš cilj je pružiti najprikladniju funkcionalnost za generiranje vremenskih oznaka."
+        },
+        "b": {
+            "q": "Što su Discord vremenske oznake?",
+            "a1": "Discord vremenska oznaka",
+            "a2": " je formatirani niz koji predstavlja određeni datum i vrijeme. Može se umetnuti u vaše poruke za prikaz datuma i vremena u standardiziranom formatu kroz različite vremenske zone."
+        },
+        "c": {
+            "q": "Kako napraviti vremenske oznake na Discordu?",
+            "a": "Možete koristiti naš Discord Generator Vremenskih Oznaka. Jednostavno unesite datum i vrijeme koje želite, a alat će vam pružiti formatiranu vremensku oznaku koju možete kopirati i zalijepiti u svoje Discord poruke."
+        },
+        "d": {
+            "q": "Podržava li DiscordTS.com različite vremenske zone?",
+            "a": "Trenutno ne podržavamo pretvarač vremenskih zona za Discord. Trenutno možemo generirati samo lokalno vrijeme za Discord, ali planiramo dodati ovu funkcionalnost u budućnosti."
+        },
+        "e": {
+            "q": "Koja je razlika između DiscordTS.com i hammertime discord?",
+            "a": "DiscordTS.com je alternativa hammer time discord."
+        }
+    }
+}

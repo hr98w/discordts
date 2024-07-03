@@ -1,0 +1,40 @@
+{
+    "title": "Discord Tidsstämpel Generator",
+    "description": "Generera och konvertera datum till tidsstämpel för att infoga i Discord-meddelanden.",
+    "text-instruction": "Klicka för att kopiera tidsstämpeln för att infoga i ditt Discord-meddelande",
+    "datetime": "Välj datum och tid",
+    "shorttime": "Kort Tid",
+    "longtime": "Lång Tid",
+    "shortdate": "Kort Datum",
+    "longdate": "Lång Datum",
+    "shortdt": "Kort Datum/Tid",
+    "longdt": "Lång Datum/Tid",
+    "rt": "Relativ Tid",
+    "timestamp": "Tidsstämpel",
+    "stct": "Ställ in på aktuell tid",
+    "ctc": "Klicka för att kopiera",
+    "FAQ": {
+        "title": "Vanliga Frågor om Tidsstämplar på Discord",
+        "a": {
+            "q": "Vad är DiscordTS.com?",
+            "a": "DiscordTS.com är en responsiv Discord tidsstämpelgenerator, även känd som en Discord tidomvandlare. Vårt mål är att erbjuda den mest bekväma tidsstämpelgenereringsfunktionen."
+        },
+        "b": {
+            "q": "Vad är Discord tidsstämplar?",
+            "a1": "En Discord tidsstämpel",
+            "a2": " är en formaterad sträng som representerar ett specifikt datum och tid. Det kan infogas i dina meddelanden för att visa datum och tider i ett standardiserat format över olika tidszoner."
+        },
+        "c": {
+            "q": "Hur gör man tidsstämplar på Discord?",
+            "a": "Du kan använda vår Discord Tidsstämpel Generator. Ange helt enkelt det önskade datumet och tiden, och verktyget kommer att ge en formaterad tidsstämpel som du kan kopiera och klistra in i dina Discord-meddelanden."
+        },
+        "d": {
+            "q": "Stöder DiscordTS.com olika tidszoner?",
+            "a": "För närvarande stöder vi inte en Discord tidszonomvandlare. Just nu kan vi bara generera lokal tid för Discord, men vi planerar att lägga till denna funktion i framtiden."
+        },
+        "e": {
+            "q": "Vad är skillnaden mellan DiscordTS.com och hammertime discord?",
+            "a": "DiscordTS.com är ett alternativ till hammer time discord."
+        }
+    }
+}

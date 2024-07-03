@@ -1,0 +1,40 @@
+{
+    "title": "Generator Timestamp Discord",
+    "description": "Menghasilkan dan mengonversi tanggal menjadi timestamp untuk disematkan dalam pesan discord.",
+    "text-instruction": "Klik untuk menyalin timestamp untuk disematkan dalam pesan discord Anda",
+    "datetime": "Pilih tanggal dan waktu",
+    "shorttime": "Waktu Singkat",
+    "longtime": "Waktu Panjang",
+    "shortdate": "Tanggal Singkat",
+    "longdate": "Tanggal Panjang",
+    "shortdt": "Tanggal/Waktu Singkat",
+    "longdt": "Tanggal/Waktu Panjang",
+    "rt": "Waktu Relatif",
+    "timestamp": "Timestamp",
+    "stct": "Setel ke waktu saat ini",
+    "ctc": "Klik untuk menyalin",
+    "FAQ": {
+        "title": "FAQ Tentang Timestamp Discord",
+        "a": {
+            "q": "Apa itu DiscordTS.com?",
+            "a": "DiscordTS.com adalah generator timestamp Discord responsif, juga dikenal sebagai konverter waktu Discord. Tujuan kami adalah menyediakan fungsionalitas generasi timestamp yang paling nyaman."
+        },
+        "b": {
+            "q": "Apa itu timestamp Discord?",
+            "a1": "Timestamp Discord",
+            "a2": " adalah string yang diformat yang mewakili tanggal dan waktu tertentu. Ini dapat disematkan dalam pesan Anda untuk menampilkan tanggal dan waktu dalam format standar di berbagai zona waktu."
+        },
+        "c": {
+            "q": "Bagaimana cara menggunakan timestamp di discord?",
+            "a": "Anda dapat menggunakan Generator Timestamp Discord kami. Cukup masukkan tanggal dan waktu yang Anda inginkan, dan alat ini akan memberikan timestamp yang diformat yang dapat Anda salin dan tempelkan ke pesan Discord Anda."
+        },
+        "d": {
+            "q": "Apakah DiscordTS.com mendukung zona waktu yang berbeda?",
+            "a": "Saat ini, kami belum mendukung konverter zona waktu discord. Kami hanya dapat menghasilkan waktu lokal discord saat ini, namun kami berencana untuk menambahkan fitur ini di masa depan."
+        },
+        "e": {
+            "q": "Apa perbedaan antara DiscordTS.com dan discord hammertime?",
+            "a": "DiscordTS.com adalah alternatif untuk discord hammertime."
+        }
+    }
+}

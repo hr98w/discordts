@@ -1,0 +1,40 @@
+{
+    "title": "Generador d'Estampes de Discord",
+    "description": "Genera i converteix la data en un estampat per incrustar en el missatge de discordia.",
+    "text-instruction": "Feu clic per copiar l'estampat per incrustar al vostre missatge de discordia",
+    "datetime": "Seleccioneu la data i l'hora",
+    "shorttime": "Hora curta",
+    "longtime": "Hora llarga",
+    "shortdate": "Data curta",
+    "longdate": "Data llarga",
+    "shortdt": "Data/Hora curta",
+    "longdt": "Data/Hora llarga",
+    "rt": "Temps relatiu",
+    "timestamp": "Estampat de temps",
+    "stct": "Establir a l'hora actual",
+    "ctc": "Feu clic per copiar",
+    "FAQ": {
+        "title": "Preguntes més freqüents sobre els estampats de Discord",
+        "a": {
+            "q": "Què és DiscordTS.com?",
+            "a": "DiscordTS.com és un generador d'estampes de Discord responsable, també conegut com a convertidor de temps Discord. El nostre objectiu és proporcionar la funcionalitat de generació d'estampes més convenient."
+        },
+        "b": {
+            "q": "Què són els estampats de Discord?",
+            "a1": "Estampat de temps de Discord",
+            "a2": " és una cadena formatada que representa una data i hora específiques. Es pot incrustar als vostres missatges per mostrar dates i hores en un format estandarditzat a través de diferents zones horàries."
+        },
+        "c": {
+            "q": "Com fer estampats de temps a discordia?",
+            "a": "Podeu utilitzar el nostre Generador d'Estampes de Discord. Simplement introduïu la data i l'hora que voleu, i l'eina proporcionarà un estampat formatat que podeu copiar i enganxar als vostres missatges de Discord."
+        },
+        "d": {
+            "q": "DiscordTS.com admet diferents zones horàries?",
+            "a": "Actualment, no donem suport a un convertidor de zones horàries de discord. Només podem generar l'hora local de discordia en aquest moment, però tenim previst afegir aquesta funció en el futur."
+        },
+        "e": {
+            "q": "Quina és la diferència entre DiscordTS.com i discordia de hammer time?",
+            "a": "DiscordTS.com és una alternativa a Discordia de temps de martell."
+        }
+    }
+}

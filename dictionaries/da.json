@@ -1,0 +1,40 @@
+{
+    "title": "Discord Tidsstempel Generator",
+    "description": "Generer og konverter dato til tidsstempel for at indlejre i Discord meddelelse.",
+    "text-instruction": "Klik for at kopiere tidsstempel til at indlejre i din Discord meddelelse",
+    "datetime": "Vælg dato og tid",
+    "shorttime": "Kort Tid",
+    "longtime": "Lang Tid",
+    "shortdate": "Kort Dato",
+    "longdate": "Lang Dato",
+    "shortdt": "Kort Dato/Tid",
+    "longdt": "Lang Dato/Tid",
+    "rt": "Relativ Tid",
+    "timestamp": "Tidsstempel",
+    "stct": "Indstil til aktuel tid",
+    "ctc": "Klik for at kopiere",
+    "FAQ": {
+        "title": "Ofte stillede spørgsmål om Discord Tidsstempler",
+        "a": {
+            "q": "Hvad er DiscordTS.com?",
+            "a": "DiscordTS.com er en responsiv Discord tidsstempel generator, også kendt som en Discord tidsomregner. Vores mål er at tilbyde den mest bekvemme funktionalitet til tidsstempel generering."
+        },
+        "b": {
+            "q": "Hvad er Discord tidsstempler?",
+            "a1": "Discord tidsstempel",
+            "a2": " er en formateret streng, der repræsenterer en specifik dato og tid. Den kan indlejres i dine beskeder for at vise datoer og tider i et standardiseret format på tværs af forskellige tidszoner."
+        },
+        "c": {
+            "q": "Hvordan laver man tidsstempler på Discord?",
+            "a": "Du kan bruge vores Discord Tidsstempel Generator. Indtast blot den dato og tid, du ønsker, og værktøjet vil levere et formateret tidsstempel, som du kan kopiere og indsætte i dine Discord beskeder."
+        },
+        "d": {
+            "q": "Understøtter DiscordTS.com forskellige tidszoner?",
+            "a": "I øjeblikket understøtter vi ikke en Discord tidszone konverter. Vi kan kun generere lokalt Discord tidspunkt på nuværende tidspunkt, men vi planlægger at tilføje denne funktion i fremtiden."
+        },
+        "e": {
+            "q": "Hvad er forskellen mellem DiscordTS.com og hammertime discord?",
+            "a": "DiscordTS.com er et alternativ til hammertime discord."
+        }
+    }
+}

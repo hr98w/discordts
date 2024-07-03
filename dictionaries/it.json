@@ -1,0 +1,40 @@
+{
+    "title": "Generatore di Timestamp per Discord",
+    "description": "Genera e converti la data in timestamp da incorporare nel messaggio di Discord.",
+    "text-instruction": "Clicca per copiare il timestamp da incorporare nel tuo messaggio di Discord",
+    "datetime": "Seleziona data e ora",
+    "shorttime": "Tempo Breve",
+    "longtime": "Tempo Lungo",
+    "shortdate": "Data Breve",
+    "longdate": "Data Lunga",
+    "shortdt": "Data/Ora Breve",
+    "longdt": "Data/Ora Lunga",
+    "rt": "Tempo Relativo",
+    "timestamp": "Timestamp",
+    "stct": "Imposta all'ora corrente",
+    "ctc": "Clicca per copiare",
+    "FAQ": {
+        "title": "FAQ sui Timestamp di Discord",
+        "a": {
+            "q": "Cos'è DiscordTS.com?",
+            "a": "DiscordTS.com è un generatore di timestamp per Discord, anche conosciuto come convertitore di orari per Discord. Il nostro obiettivo è fornire la funzionalità di generazione di timestamp più conveniente."
+        },
+        "b": {
+            "q": "Cosa sono i timestamp di Discord?",
+            "a1": "Il timestamp di Discord",
+            "a2": " è una stringa formattata che rappresenta una data e un'ora specifica. Può essere incorporato nei tuoi messaggi per visualizzare date e orari in un formato standardizzato attraverso diverse zone orarie."
+        },
+        "c": {
+            "q": "Come fare i timestamp su Discord?",
+            "a": "Puoi utilizzare il nostro Generatore di Timestamp per Discord. Basta inserire la data e l'ora desiderate e lo strumento fornirà un timestamp formattato che puoi copiare e incollare nei tuoi messaggi di Discord."
+        },
+        "d": {
+            "q": "DiscordTS.com supporta diverse zone orarie?",
+            "a": "Attualmente, non supportiamo un convertitore di fusi orari per Discord. Al momento possiamo generare solo l'ora locale di Discord, ma prevediamo di aggiungere questa funzionalità in futuro."
+        },
+        "e": {
+            "q": "Qual è la differenza tra DiscordTS.com e hammertime discord?",
+            "a": "DiscordTS.com è un'alternativa a hammer time discord."
+        }
+    }
+}

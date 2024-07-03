@@ -1,0 +1,40 @@
+{
+    "title": "Generátor časového razítka Discordu",
+    "description": "Generujte a převeďte datum na časové razítko pro vložení do zprávy na Discordu.",
+    "text-instruction": "Kliknutím zkopírujte časové razítko pro vložení do vaší zprávy na Discordu",
+    "datetime": "Vyberte datum a čas",
+    "shorttime": "Krátký čas",
+    "longtime": "Dlouhý čas",
+    "shortdate": "Krátké datum",
+    "longdate": "Dlouhé datum",
+    "shortdt": "Krátké datum/čas",
+    "longdt": "Dlouhé datum/čas",
+    "rt": "Relativní čas",
+    "timestamp": "Časové razítko",
+    "stct": "Nastavit na aktuální čas",
+    "ctc": "Kliknutím zkopírujte",
+    "FAQ": {
+        "title": "Časté otázky týkající se časových razítek Discordu",
+        "a": {
+            "q": "Co je to DiscordTS.com?",
+            "a": "DiscordTS.com je responzivní generátor časových razítek pro Discord, známý také jako převodník času Discord. Naším cílem je poskytnout nejpohodlnější funkcionalitu pro generaci časových razítek."
+        },
+        "b": {
+            "q": "Co jsou to časová razítka Discordu?",
+            "a1": "Časové razítko Discordu",
+            "a2": " je formátovaný řetězec, který reprezentuje konkrétní datum a čas. Může být vložen do vašich zpráv pro zobrazení datumů a časů ve standardizovaném formátu napříč různými časovými pásmy."
+        },
+        "c": {
+            "q": "Jak používat časová razítka na Discordu?",
+            "a": "Můžete použít náš Generátor časových razítek Discordu. Stačí zadat datum a čas, které chcete, a nástroj poskytne formátované časové razítko, které můžete kopírovat a vložit do vašich zpráv na Discordu."
+        },
+        "d": {
+            "q": "Podporuje DiscordTS.com různé časové pásma?",
+            "a": "Momentálně nepodporujeme konvertor časového pásma pro Discord. V současné době můžeme generovat pouze místní čas Discordu, ale plánujeme tuto funkci přidat do budoucna."
+        },
+        "e": {
+            "q": "Jaký je rozdíl mezi DiscordTS.com a discord hammertime?",
+            "a": "DiscordTS.com je alternativou k Discord hammertime."
+        }
+    }
+}

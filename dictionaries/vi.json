@@ -1,0 +1,40 @@
+{
+    "title": "Trình Tạo Dấu Thời Gian Discord",
+    "description": "Tạo và chuyển đổi ngày thành dấu thời gian để nhúng vào tin nhắn Discord.",
+    "text-instruction": "Nhấp để sao chép dấu thời gian để nhúng vào tin nhắn Discord của bạn",
+    "datetime": "Chọn ngày và giờ",
+    "shorttime": "Thời Gian Ngắn",
+    "longtime": "Thời Gian Dài",
+    "shortdate": "Ngày Ngắn",
+    "longdate": "Ngày Dài",
+    "shortdt": "Ngày/Giờ Ngắn",
+    "longdt": "Ngày/Giờ Dài",
+    "rt": "Thời Gian Tương Đối",
+    "timestamp": "Dấu Thời Gian",
+    "stct": "Đặt về thời gian hiện tại",
+    "ctc": "Nhấp để sao chép",
+    "FAQ": {
+        "title": "Câu Hỏi Thường Gặp về Dấu Thời Gian Discord",
+        "a": {
+            "q": "DiscordTS.com là gì?",
+            "a": "DiscordTS.com là một trình tạo dấu thời gian cho Discord đáp ứng, còn được gọi là trình chuyển đổi thời gian Discord. Mục tiêu của chúng tôi là cung cấp chức năng tạo dấu thời gian thuận tiện nhất."
+        },
+        "b": {
+            "q": "Dấu thời gian Discord là gì?",
+            "a1": "Dấu thời gian Discord",
+            "a2": " là một chuỗi định dạng đại diện cho một ngày và giờ cụ thể. Nó có thể được nhúng vào tin nhắn của bạn để hiển thị ngày và giờ ở định dạng tiêu chuẩn trên các múi giờ khác nhau."
+        },
+        "c": {
+            "q": "Làm thế nào để tạo dấu thời gian trên Discord?",
+            "a": "Bạn có thể sử dụng Trình Tạo Dấu Thời Gian Discord của chúng tôi. Chỉ cần nhập ngày và giờ mong muốn, và công cụ sẽ cung cấp một dấu thời gian định dạng mà bạn có thể sao chép và dán vào tin nhắn Discord của mình."
+        },
+        "d": {
+            "q": "DiscordTS.com có hỗ trợ các múi giờ khác nhau không?",
+            "a": "Hiện tại, chúng tôi không hỗ trợ trình chuyển đổi múi giờ cho Discord. Hiện tại, chúng tôi chỉ có thể tạo thời gian địa phương cho Discord, nhưng chúng tôi dự định sẽ thêm tính năng này trong tương lai."
+        },
+        "e": {
+            "q": "Sự khác biệt giữa DiscordTS.com và hammertime discord là gì?",
+            "a": "DiscordTS.com là một sự thay thế cho hammer time discord."
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "title": "Generator de Timestamps pentru Discord",
+    "description": "Generați și convertiți o dată într-un timestamp pentru a fi încorporat în mesajul Discord.",
+    "text-instruction": "Faceți clic pentru a copia timestamp-ul pentru a fi încorporat în mesajul dvs. Discord",
+    "datetime": "Selectați data și ora",
+    "shorttime": "Timp Scurt",
+    "longtime": "Timp Lung",
+    "shortdate": "Dată Scurtă",
+    "longdate": "Dată Lungă",
+    "shortdt": "Dată/Timp Scurt",
+    "longdt": "Dată/Timp Lung",
+    "rt": "Timp Relativ",
+    "timestamp": "Timestamp",
+    "stct": "Setați la ora curentă",
+    "ctc": "Faceți clic pentru a copia",
+    "FAQ": {
+        "title": "Întrebări Frecvente despre Timestamps pentru Discord",
+        "a": {
+            "q": "Ce este DiscordTS.com?",
+            "a": "DiscordTS.com este un generator de timestamps pentru Discord, cunoscut și sub denumirea de convertor de timp pentru Discord. Scopul nostru este de a oferi cea mai convenabilă funcționalitate de generare a timestamp-urilor."
+        },
+        "b": {
+            "q": "Ce sunt timestamps pentru Discord?",
+            "a1": "Un timestamp pentru Discord",
+            "a2": " este un șir formatat care reprezintă o dată și o oră specifică. Poate fi încorporat în mesajele dvs. pentru a afișa datele și orele într-un format standardizat în diferite fusuri orare."
+        },
+        "c": {
+            "q": "Cum se fac timestamps pe Discord?",
+            "a": "Puteți utiliza Generatorul nostru de Timestamps pentru Discord. Introduceți pur și simplu data și ora dorite, iar instrumentul va furniza un timestamp formatat pe care îl puteți copia și lipi în mesajele dvs. Discord."
+        },
+        "d": {
+            "q": "DiscordTS.com suportă fusuri orare diferite?",
+            "a": "În prezent, nu suportăm un convertor de fusuri orare pentru Discord. În acest moment, putem genera doar ora locală pentru Discord, dar intenționăm să adăugăm această funcționalitate în viitor."
+        },
+        "e": {
+            "q": "Care este diferența dintre DiscordTS.com și hammertime discord?",
+            "a": "DiscordTS.com este o alternativă la hammer time discord."
+        }
+    }
+}

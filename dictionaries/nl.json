@@ -1,0 +1,40 @@
+{
+    "title": "Discord Tijdstempel Generator",
+    "description": "Genereer en converteer datum naar tijdstempel om in te voegen in een Discord-bericht.",
+    "text-instruction": "Klik om de tijdstempel te kopiëren om in te voegen in je Discord-bericht",
+    "datetime": "Selecteer datum en tijd",
+    "shorttime": "Korte Tijd",
+    "longtime": "Lange Tijd",
+    "shortdate": "Korte Datum",
+    "longdate": "Lange Datum",
+    "shortdt": "Korte Datum/Tijd",
+    "longdt": "Lange Datum/Tijd",
+    "rt": "Relatieve Tijd",
+    "timestamp": "Tijdstempel",
+    "stct": "Instellen op huidige tijd",
+    "ctc": "Klik om te kopiëren",
+    "FAQ": {
+        "title": "Veelgestelde Vragen over Discord Tijdstempels",
+        "a": {
+            "q": "Wat is DiscordTS.com?",
+            "a": "DiscordTS.com is een responsieve Discord tijdstempel generator, ook wel bekend als een Discord tijd converter. Ons doel is om de meest handige tijdstempel generatiefunctie te bieden."
+        },
+        "b": {
+            "q": "Wat zijn Discord tijdstempels?",
+            "a1": "Een Discord tijdstempel",
+            "a2": " is een geformatteerde string die een specifieke datum en tijd weergeeft. Het kan worden ingevoegd in je berichten om datums en tijden in een gestandaardiseerd formaat weer te geven in verschillende tijdzones."
+        },
+        "c": {
+            "q": "Hoe maak je tijdstempels op Discord?",
+            "a": "Je kunt onze Discord Tijdstempel Generator gebruiken. Voer eenvoudig de gewenste datum en tijd in, en de tool levert een geformatteerde tijdstempel die je kunt kopiëren en plakken in je Discord-berichten."
+        },
+        "d": {
+            "q": "Ondersteunt DiscordTS.com verschillende tijdzones?",
+            "a": "Momenteel ondersteunen we geen Discord tijdzone converter. We kunnen op dit moment alleen lokale tijd voor Discord genereren, maar we zijn van plan om deze functie in de toekomst toe te voegen."
+        },
+        "e": {
+            "q": "Wat is het verschil tussen DiscordTS.com en hammertime discord?",
+            "a": "DiscordTS.com is een alternatief voor hammer time discord."
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "title": "Discord Zaman Damgası Oluşturucu",
+    "description": "Tarihi zaman damgasına dönüştürmek ve Discord mesajına eklemek için oluşturun.",
+    "text-instruction": "Discord mesajınıza eklemek için zaman damgasını kopyalamak için tıklayın",
+    "datetime": "Tarih ve saat seçin",
+    "shorttime": "Kısa Zaman",
+    "longtime": "Uzun Zaman",
+    "shortdate": "Kısa Tarih",
+    "longdate": "Uzun Tarih",
+    "shortdt": "Kısa Tarih/Zaman",
+    "longdt": "Uzun Tarih/Zaman",
+    "rt": "Göreceli Zaman",
+    "timestamp": "Zaman Damgası",
+    "stct": "Geçerli zamana ayarla",
+    "ctc": "Kopyalamak için tıklayın",
+    "FAQ": {
+        "title": "Discord Zaman Damgaları Hakkında Sıkça Sorulan Sorular",
+        "a": {
+            "q": "DiscordTS.com nedir?",
+            "a": "DiscordTS.com, aynı zamanda bir Discord zaman dönüştürücü olarak da bilinen, duyarlı bir Discord zaman damgası oluşturucusudur. Amacımız en uygun zaman damgası oluşturma işlevselliğini sağlamaktır."
+        },
+        "b": {
+            "q": "Discord zaman damgaları nedir?",
+            "a1": "Discord zaman damgası",
+            "a2": " belirli bir tarih ve saati temsil eden biçimlendirilmiş bir dizidir. Farklı zaman dilimlerinde tarih ve saatleri standartlaştırılmış bir formatta göstermek için mesajlarınıza eklenebilir."
+        },
+        "c": {
+            "q": "Discord'da nasıl zaman damgası yapılır?",
+            "a": "Discord Zaman Damgası Oluşturucumuzu kullanabilirsiniz. Sadece istediğiniz tarih ve saati girin ve araç size Discord mesajlarınıza kopyalayıp yapıştırabileceğiniz biçimlendirilmiş bir zaman damgası sağlayacaktır."
+        },
+        "d": {
+            "q": "DiscordTS.com farklı zaman dilimlerini destekliyor mu?",
+            "a": "Şu anda, bir Discord zaman dilimi dönüştürücüsünü desteklemiyoruz. Şu anda yalnızca yerel zamanı Discord için üretebiliyoruz, ancak gelecekte bu özelliği eklemeyi planlıyoruz."
+        },
+        "e": {
+            "q": "DiscordTS.com ile hammertime discord arasındaki fark nedir?",
+            "a": "DiscordTS.com, hammer time discord için bir alternatiftir."
+        }
+    }
+}

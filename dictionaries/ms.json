@@ -1,0 +1,40 @@
+{
+    "title": "Pembangkit Cap Masa Discord",
+    "description": "Menghasilkan dan menukar tarikh kepada cap masa untuk ditekankan dalam mesej discord.",
+    "text-instruction": "Klik untuk menyalin cap masa untuk ditekankan dalam mesej discord anda",
+    "datetime": "Pilih tarikh dan masa",
+    "shorttime": "Masa Pendek",
+    "longtime": "Masa Panjang",
+    "shortdate": "Tarikh Pendek",
+    "longdate": "Tarikh Panjang",
+    "shortdt": "Tarikh/Masa Pendek",
+    "longdt": "Tarikh/Masa Panjang",
+    "rt": "Masa Berhubung Kait",
+    "timestamp": "Cap Masa",
+    "stct": "Set ke masa semasa",
+    "ctc": "Klik untuk menyalin",
+    "FAQ": {
+        "title": "Soalan Lazim Mengenai Cap Masa Discord",
+        "a": {
+            "q": "Apakah DiscordTS.com?",
+            "a": "DiscordTS.com adalah pembangkit cap masa Discord responsif, juga dikenali sebagai penukar masa Discord. Matlamat kami adalah untuk menyediakan fungsi pembangkitan cap masa yang paling selesa."
+        },
+        "b": {
+            "q": "Apakah cap masa Discord?",
+            "a1": "Cap masa Discord",
+            "a2": " ialah rentetan yang diformat yang mewakili tarikh dan masa tertentu. Ia boleh ditekankan dalam mesej anda untuk paparan tarikh dan masa dalam format piawai merentasi zon masa yang berbeza."
+        },
+        "c": {
+            "q": "Bagaimana cara menggunakan cap masa di discord?",
+            "a": "Anda boleh menggunakan Pembangkit Cap Masa Discord kami. Hanya masukkan tarikh dan masa yang anda inginkan, dan alat ini akan memberikan cap masa yang diformat yang boleh anda salin dan tampal ke dalam mesej Discord anda."
+        },
+        "d": {
+            "q": "Adakah DiscordTS.com menyokong zon masa yang berbeza?",
+            "a": "Pada masa ini, kami tidak menyokong pembolehubah zon masa Discord. Kami hanya boleh menghasilkan masa tempatan Discord pada masa ini, tetapi kami merancang untuk menambah ciri ini pada masa depan."
+        },
+        "e": {
+            "q": "Apakah perbezaan antara DiscordTS.com dan hammertime discord?",
+            "a": "DiscordTS.com adalah alternatif kepada discord hammertime."
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "title": "Discord Időbélyeg Generátor",
+    "description": "Időbélyeg generálása és átalakítása, hogy beilleszthesse a Discord üzenetbe.",
+    "text-instruction": "Kattintson az időbélyeg másolásához, hogy beilleszthesse a Discord üzenetbe",
+    "datetime": "Válassza ki a dátumot és időt",
+    "shorttime": "Rövid Idő",
+    "longtime": "Hosszú Idő",
+    "shortdate": "Rövid Dátum",
+    "longdate": "Hosszú Dátum",
+    "shortdt": "Rövid Dátum/Idő",
+    "longdt": "Hosszú Dátum/Idő",
+    "rt": "Relatív Idő",
+    "timestamp": "Időbélyeg",
+    "stct": "Állítsa be az aktuális időre",
+    "ctc": "Kattintson a másoláshoz",
+    "FAQ": {
+        "title": "GYIK a Discord időbélyegekről",
+        "a": {
+            "q": "Mi az a DiscordTS.com?",
+            "a": "A DiscordTS.com egy reszponzív Discord időbélyeg generátor, más néven Discord idő konvertáló. Célunk a legkényelmesebb időbélyeg generálási funkció biztosítása."
+        },
+        "b": {
+            "q": "Mik azok a Discord időbélyegek?",
+            "a1": "A Discord időbélyeg",
+            "a2": " egy formázott karakterlánc, amely egy adott dátumot és időt jelöl. Beilleszthető az üzeneteibe, hogy különböző időzónákban egységes formátumban jelenítse meg a dátumokat és időket."
+        },
+        "c": {
+            "q": "Hogyan lehet időbélyegeket készíteni a Discordon?",
+            "a": "Használhatja a Discord Időbélyeg Generátorunkat. Egyszerűen adja meg a kívánt dátumot és időt, és az eszköz formázott időbélyeget biztosít, amelyet másolhat és beilleszthet a Discord üzeneteibe."
+        },
+        "d": {
+            "q": "Támogatja a DiscordTS.com a különböző időzónákat?",
+            "a": "Jelenleg nem támogatunk Discord időzóna konvertálót. Jelenleg csak a helyi időt tudjuk generálni a Discord számára, de tervezzük, hogy a jövőben hozzáadjuk ezt a funkciót."
+        },
+        "e": {
+            "q": "Mi a különbség a DiscordTS.com és a hammertime discord között?",
+            "a": "A DiscordTS.com alternatívája a hammer time discord."
+        }
+    }
+}

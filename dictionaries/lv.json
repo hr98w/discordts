@@ -1,0 +1,40 @@
+{
+    "title": "Discord Laika Zīmoga Ģenerators",
+    "description": "Ģenerēt un konvertēt datumu uz laika zīmogu, ko iekļaut Discord ziņojumā.",
+    "text-instruction": "Noklikšķiniet, lai kopētu laika zīmogu, lai to iekļautu savā Discord ziņojumā",
+    "datetime": "Izvēlieties datumu un laiku",
+    "shorttime": "Īss Laiks",
+    "longtime": "Garš Laiks",
+    "shortdate": "Īss Datums",
+    "longdate": "Garš Datums",
+    "shortdt": "Īss Datums/Laiks",
+    "longdt": "Garš Datums/Laiks",
+    "rt": "Relatīvais Laiks",
+    "timestamp": "Laika Zīmogs",
+    "stct": "Iestatīt uz pašreizējo laiku",
+    "ctc": "Noklikšķiniet, lai kopētu",
+    "FAQ": {
+        "title": "Biežāk uzdotie jautājumi par Discord laika zīmogiem",
+        "a": {
+            "q": "Kas ir DiscordTS.com?",
+            "a": "DiscordTS.com ir atsaucīgs Discord laika zīmogu ģenerators, kas pazīstams arī kā Discord laika konvertētājs. Mūsu mērķis ir nodrošināt visērtāko laika zīmogu ģenerēšanas funkcionalitāti."
+        },
+        "b": {
+            "q": "Kas ir Discord laika zīmogi?",
+            "a1": "Discord laika zīmogs",
+            "a2": " ir formatēta virkne, kas attēlo konkrētu datumu un laiku. To var iekļaut jūsu ziņojumos, lai parādītu datumus un laikus standartizētā formātā dažādās laika zonās."
+        },
+        "c": {
+            "q": "Kā veikt laika zīmogus vietnē Discord?",
+            "a": "Jūs varat izmantot mūsu Discord Laika Zīmoga Ģeneratoru. Vienkārši ievadiet vēlamo datumu un laiku, un rīks nodrošinās formatētu laika zīmogu, kuru varat kopēt un ielīmēt savos Discord ziņojumos."
+        },
+        "d": {
+            "q": "Vai DiscordTS.com atbalsta dažādas laika zonas?",
+            "a": "Pašlaik mēs neatbalstām Discord laika zonas konvertētāju. Šobrīd mēs varam ģenerēt tikai Discord vietējo laiku, taču nākotnē plānojam pievienot šo funkcionalitāti."
+        },
+        "e": {
+            "q": "Kāda ir atšķirība starp DiscordTS.com un hammertime discord?",
+            "a": "DiscordTS.com ir alternatīva hammer time discord."
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "title": "Generator Znaczników Czasu Discord",
+    "description": "Generuj i konwertuj datę na znacznik czasu do osadzenia w wiadomości Discord.",
+    "text-instruction": "Kliknij, aby skopiować znacznik czasu do osadzenia w wiadomości Discord",
+    "datetime": "Wybierz datę i czas",
+    "shorttime": "Krótki Czas",
+    "longtime": "Długi Czas",
+    "shortdate": "Krótka Data",
+    "longdate": "Długa Data",
+    "shortdt": "Krótka Data/Czas",
+    "longdt": "Długa Data/Czas",
+    "rt": "Relatywny Czas",
+    "timestamp": "Znacznik Czasu",
+    "stct": "Ustaw na aktualny czas",
+    "ctc": "Kliknij, aby skopiować",
+    "FAQ": {
+        "title": "Najczęściej zadawane pytania dotyczące znaczników czasu Discord",
+        "a": {
+            "q": "Co to jest DiscordTS.com?",
+            "a": "DiscordTS.com to responsywny generator znaczników czasu Discord, znany również jako konwerter czasu Discord. Naszym celem jest zapewnienie najbardziej wygodnej funkcji generowania znaczników czasu."
+        },
+        "b": {
+            "q": "Czym są znaczniki czasu Discord?",
+            "a1": "Znacznik czasu Discord",
+            "a2": " to sformatowany ciąg, który reprezentuje konkretną datę i czas. Może być osadzony w twoich wiadomościach, aby wyświetlać daty i czasy w znormalizowanym formacie w różnych strefach czasowych."
+        },
+        "c": {
+            "q": "Jak tworzyć znaczniki czasu na Discord?",
+            "a": "Możesz użyć naszego Generatora Znaczników Czasu Discord. Wystarczy wprowadzić żądaną datę i czas, a narzędzie dostarczy sformatowany znacznik czasu, który można skopiować i wkleić do swoich wiadomości Discord."
+        },
+        "d": {
+            "q": "Czy DiscordTS.com obsługuje różne strefy czasowe?",
+            "a": "Obecnie nie obsługujemy konwertera stref czasowych Discord. Obecnie możemy generować tylko lokalny czas Discord, ale planujemy dodać tę funkcję w przyszłości."
+        },
+        "e": {
+            "q": "Jaka jest różnica między DiscordTS.com a hammertime discord?",
+            "a": "DiscordTS.com to alternatywa dla hammer time discord."
+        }
+    }
+}

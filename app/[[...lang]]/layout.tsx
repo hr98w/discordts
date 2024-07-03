@@ -8,7 +8,8 @@ import { Navbar } from "@/components/navbar";
 import { Analytics } from "@vercel/analytics/react"
 import Script from "next/script";
 import { dir } from 'i18next'
-import { getDictionary } from "@/dictionaries/dictionaries";
+import { getDictionary, localeNames } from "@/dictionaries/dictionaries";
+import { Link } from "@nextui-org/link";
 
 // export const metadata: Metadata = {
 //   metadataBase: new URL('https://discordts.com'),
@@ -99,18 +100,27 @@ export default function RootLayout({
             <Navbar />
             <main className="md:container md:mx-auto w-full flex-grow">
               {children}
+
+              <footer className="flex w-full items-center justify-center py-3">
+              <div className="flex flex-row flex-wrap gap-1">
+              {Object.keys(localeNames).map((key: string) => {
+                const name = localeNames[key];
+                return (
+                  <Link
+                  className="flex-row w-24 items-center gap-2 text-current"
+                  key = {key}
+                  href={key}
+                  title={key}
+                >
+                  <p className="text-primary">{name}</p>
+                </Link>
+                );
+            })}
+            </div>
+              
+            </footer>
             </main>
-            {/* <footer className="w-full flex items-center justify-center py-3">
-              <Link
-                isExternal
-                className="flex items-center gap-1 text-current"
-                href="https://nextui-docs-v2.vercel.app?utm_source=next-app-template"
-                title="nextui.org homepage"
-              >
-                <span className="text-default-600">Powered by</span>
-                <p className="text-primary">NextUI</p>
-              </Link>
-            </footer> */}
+            
           </div>
         </Providers>
         <Analytics/>
