@@ -7,7 +7,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
     },
     {
-      url: 'https://discordts.com/en-UK',
+      url: 'https://discordts.com/en-GB',
       lastModified: new Date(),
     },
     {

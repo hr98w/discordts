@@ -1,8 +1,8 @@
 export const defaultLocale = 'en'
-export const locales = ["", "en", "en-UK", "zh-CN", "zh-TW", 'ja', "ar", "es", "ru", "ko", "de", "fr"];
+export const locales = ["", "en", "en-GB", "zh-CN", "zh-TW", 'ja', "ar", "es", "ru", "ko", "de", "fr"];
 export const localeNames: any = {
   en: "🇺🇸 English",
-  "en-UK": "🇬🇧 English",
+  "en-GB": "🇬🇧 English",
   "de": "🇩🇪 Deutsch",
   es: "🇪🇸 Español",
   "fr": "🇫🇷 Français",
@@ -48,7 +48,7 @@ const todo = {
 
 const dictionaries: any = {
   en: () => import("@/dictionaries/en.json").then((module) => module.default),
-  "en-UK": () => import("@/dictionaries/en-UK.json").then((module) => module.default),
+  "en-GB": () => import("@/dictionaries/en-GB.json").then((module) => module.default),
   "zh-CN": () => import("@/dictionaries/zh-CN.json").then((module) => module.default),
   "zh-TW": () => import("@/dictionaries/zh-TW.json").then((module) => module.default),
   ja: () => import("@/dictionaries/ja.json").then((module) => module.default),
