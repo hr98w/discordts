@@ -1,40 +1,40 @@
 {
-    "title": "Discord Zeitstempel Generator",
-    "description": "Générer et convertir la date en timestamp pour l'intégrer dans un message Discord.",
-    "text-instruction": "Klicken Sie hier, um den Zeitstempel zum Einbetten in Ihre Discord-Nachricht zu kopieren",
-    "datetime": "Datum und Uhrzeit auswählen",
-    "shorttime": "Kurze Zeit",
-    "longtime": "Lange Zeit",
-    "shortdate": "Kurzes Datum",
-    "longdate": "Langes Datum",
-    "shortdt": "Kurzes Datum/Uhrzeit",
-    "longdt": "Langes Datum/Uhrzeit",
-    "rt": "Relative Zeit",
-    "timestamp": "Zeitstempel",
-    "stct": "Auf aktuelle Zeit setzen",
-    "ctc": "Klicken zum Kopieren",
+    "title": "Générateur de timestamp Discord",
+    "description": "Génère et convertit une date en timestamp pour l'intégrer dans un message Discord.",
+    "text-instruction": "Cliquez pour copier le timestamp à intégrer dans votre message Discord",
+    "datetime": "Sélectionner la date et l'heure",
+    "shorttime": "Heure courte",
+    "longtime": "Heure longue",
+    "shortdate": "Date courte",
+    "longdate": "Date longue",
+    "shortdt": "Date/Heure courte",
+    "longdt": "Date/Heure longue",
+    "rt": "Temps relatif",
+    "timestamp": "Timestamp",
+    "stct": "Définir sur l'heure actuelle",
+    "ctc": "Cliquez pour copier",
     "FAQ": {
-        "title": "FAQ zu Discord Zeitstempeln",
+        "title": "FAQ sur les timestamps Discord",
         "a": {
-            "q": "Was ist DiscordTS.com?",
-            "a": "DiscordTS.com ist ein responsiver Discord Zeitstempel Generator, auch bekannt als Discord Zeitumwandler. Unser Ziel ist es, die praktischste Funktion zur Zeitstempelgenerierung bereitzustellen."
+            "q": "Qu'est-ce que DiscordTS.com ?",
+            "a": "DiscordTS.com est un générateur de timestamp Discord réactif, également connu sous le nom de convertisseur de temps Discord. Notre objectif est de fournir la fonctionnalité de génération de timestamp la plus pratique."
         },
         "b": {
-            "q": "Was sind Discord Zeitstempel?",
-            "a1": "Discord Zeitstempel",
-            "a2": " sind formatierte Zeichenfolgen, die ein bestimmtes Datum und eine bestimmte Uhrzeit darstellen. Sie können in Ihre Nachrichten eingebettet werden, um Datum und Uhrzeit in einem standardisierten Format über verschiedene Zeitzonen hinweg anzuzeigen."
+            "q": "Qu'est-ce que les timestamps Discord ?",
+            "a1": "Les timestamps Discord",
+            "a2": " sont des chaînes formatées représentant une date et une heure spécifiques. Ils peuvent être intégrés dans vos messages pour afficher des dates et heures dans un format standardisé à travers différents fuseaux horaires."
         },
         "c": {
-            "q": "Wie erstelle ich Zeitstempel in Discord?",
-            "a": "Sie können unseren Discord Zeitstempel Generator verwenden. Geben Sie einfach das gewünschte Datum und die Uhrzeit ein, und das Tool generiert einen formatierten Zeitstempel, den Sie in Ihre Discord-Nachrichten kopieren und einfügen können."
+            "q": "Comment créer des timestamps sur Discord ?",
+            "a": "Vous pouvez utiliser notre générateur de timestamp Discord. Il vous suffit d'entrer la date et l'heure souhaitées, et l'outil vous fournira un timestamp formaté que vous pouvez copier et coller dans vos messages Discord."
         },
         "d": {
-            "q": "Unterstützt DiscordTS.com verschiedene Zeitzonen?",
-            "a": "Derzeit unterstützen wir keinen Discord Zeitzonen-Konverter. Wir können derzeit nur die lokale Discord-Zeit generieren, planen jedoch, diese Funktion in Zukunft hinzuzufügen."
+            "q": "Est-ce que DiscordTS.com supporte différents fuseaux horaires ?",
+            "a": "Actuellement, nous ne supportons pas de convertisseur de fuseaux horaires Discord. Nous ne pouvons générer que l'heure locale Discord pour le moment, mais nous prévoyons d'ajouter cette fonctionnalité à l'avenir."
         },
         "e": {
-            "q": "Was ist der Unterschied zwischen DiscordTS.com und hammertime discord?",
-            "a": "DiscordTS.com ist eine Alternative zu hammertime discord."
+            "q": "Quelle est la différence entre DiscordTS.com et Hammertime Discord ?",
+            "a": "DiscordTS.com est une alternative à Hammertime Discord."
         }
     }
 }

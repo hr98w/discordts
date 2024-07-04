@@ -48,7 +48,7 @@ const todo = {
 
 const dictionaries: any = {
   en: () => import("@/dictionaries/en.json").then((module) => module.default),
-  "en-UK": () => import("@/dictionaries/en.json").then((module) => module.default),
+  "en-UK": () => import("@/dictionaries/en-UK.json").then((module) => module.default),
   "zh-CN": () => import("@/dictionaries/zh-CN.json").then((module) => module.default),
   "zh-TW": () => import("@/dictionaries/zh-TW.json").then((module) => module.default),
   ja: () => import("@/dictionaries/ja.json").then((module) => module.default),
