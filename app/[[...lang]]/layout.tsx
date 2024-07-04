@@ -87,7 +87,9 @@ export default function RootLayout({
   }
   return (
     <html suppressHydrationWarning lang={lng} dir={dir(lng)}>
-      <head />
+      <head>
+      <script defer src="https://cloud.umami.is/script.js" data-website-id="ce225415-f07f-4d67-8fa6-1e9c8f902fda"></script>
+      </head>
       <body
         className={clsx(
           "min-h-screen bg-background antialiased",
