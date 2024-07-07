@@ -65,5 +65,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: 'https://discordts.com/blog/timestamp',
       lastModified: new Date(),
     },
+    {
+      url: 'https://discordts.com/blog/about',
+      lastModified: new Date(),
+    },
   ]
 }
