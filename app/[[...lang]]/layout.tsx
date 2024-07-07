@@ -1,15 +1,15 @@
 import "@/styles/globals.css";
-import { Metadata, Viewport } from "next";
+import { Viewport } from "next";
 import clsx from "clsx";
 import { Providers } from "../providers";
-import { siteConfig } from "@/config/site";
 import { fontSen } from "@/config/fonts";
 import { Navbar } from "@/components/navbar";
 import { Analytics } from "@vercel/analytics/react"
-import Script from "next/script";
 import { dir } from 'i18next'
 import { getDictionary, localeNames } from "@/dictionaries/dictionaries";
 import { Link } from "@nextui-org/link";
+import GoogleAnalytics from "@/components/analytic/GoogleAnalytic";
+import UmamiAnalytic from "@/components/analytic/UmamiAnalytic";
 
 // export const metadata: Metadata = {
 //   metadataBase: new URL('https://discordts.com'),
@@ -88,7 +88,7 @@ export default function RootLayout({
   return (
     <html suppressHydrationWarning lang={lng} dir={dir(lng)}>
       <head>
-      <script defer src="https://cloud.umami.is/script.js" data-website-id="ce225415-f07f-4d67-8fa6-1e9c8f902fda"></script>
+        <UmamiAnalytic/>
       </head>
       <body
         className={clsx(
@@ -126,16 +126,7 @@ export default function RootLayout({
           </div>
         </Providers>
         <Analytics/>
-        <Script strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=G-F5R2TBL93D`} />
-      <Script strategy="lazyOnload">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-F5R2TBL93D',{
-          page_path: window.location.pathname});
-        `}
-      </Script>
+        <GoogleAnalytics/>
       </body>
     </html>
   );

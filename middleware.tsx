@@ -4,7 +4,9 @@ import { NextRequest } from "next/server";
 
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
-
+  if (pathname.startsWith('/blog')) {
+    return;
+  }
   const isExit = locales.some(
     (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
   );
