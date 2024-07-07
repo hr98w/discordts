@@ -11,6 +11,11 @@ export function middleware(request: NextRequest) {
     (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
   );
 
+  if (pathname === '/en') {
+    request.nextUrl.pathname = `/`;
+    return Response.redirect(request.nextUrl);
+  }
+
   if (isExit) return;
 
   request.nextUrl.pathname = `/`;

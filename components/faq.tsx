@@ -15,7 +15,7 @@ export const Faq : React.FC<Props> = ({dict}) => {
       <div className="flex flex-col gap-4 px-16 text-lg">
 
         <div className="flex flex-col gap-1">
-        <h3>Q: {dict["FAQ"]["a"]["q"]}</h3>
+        <h3>Q: <Link href="/blog/about">{dict["FAQ"]["a"]["q"]}</Link></h3>
         <p className="text-[#888888]">A: {dict["FAQ"]["a"]["a"]}</p>
         </div>
     
