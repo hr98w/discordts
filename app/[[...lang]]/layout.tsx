@@ -126,7 +126,7 @@ export default function RootLayout({
           </div>
         </Providers>
         <Analytics/>
-        <Script strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=G-F5R2TBL93D5`} />
+        <Script strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=G-F5R2TBL93D`} />
       <Script strategy="lazyOnload">
         {`
           window.dataLayer = window.dataLayer || [];
