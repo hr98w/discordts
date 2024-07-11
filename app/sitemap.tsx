@@ -58,6 +58,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: 'https://discordts.com/pt-BR',
       lastModified: new Date(),
     },
+    {
+      url: 'https://discordts.com/el',
+      lastModified: new Date(),
+    },
+    {
+      url: 'https://discordts.com/bg',
+      lastModified: new Date(),
+    },
+    {
+      url: 'https://discordts.com/uk',
+      lastModified: new Date(),
+    },
     
 
 
