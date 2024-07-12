@@ -70,6 +70,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: 'https://discordts.com/uk',
       lastModified: new Date(),
     },
+    {
+      url: 'https://discordts.com/he',
+      lastModified: new Date(),
+    },
+    {
+      url: 'https://discordts.com/ur',
+      lastModified: new Date(),
+    },
+    {
+      url: 'https://discordts.com/fa',
+      lastModified: new Date(),
+    },
     
 
 

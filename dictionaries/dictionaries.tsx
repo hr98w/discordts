@@ -1,9 +1,9 @@
 export const defaultLocale = 'en'
-export const locales = ["", "en", "en-GB", "zh-CN", "zh-TW", 'ja', "ar", "es", "ru", "ko", "de", "fr", "it", "pt", "pt-BR", "el", "bg", "uk"];
+export const locales = ["", "en", "en-GB", "zh-CN", "zh-TW", 'ja', "ar", "es", "ru", "ko", "de", "fr", "it", "pt", "pt-BR", "el", "bg", "uk", "he", "ur", "fa"];
 export const localeNames: any = {
   en: "🇺🇸 English",
   "en-GB": "🇬🇧 English",
-  ar: "🇸🇦 العربية",
+  
   "de": "🇩🇪 Deutsch",
   es: "🇪🇸 Español",
   it: "🇮🇹 Italiano",
@@ -14,6 +14,11 @@ export const localeNames: any = {
   el: "🇬🇷 Ελληνικά",
   bg: "🇧🇬 Български",
   uk: "🇺🇦 Українська",
+  ar: "🇸🇦 العربية",
+  he: "🇮🇱 עִברִית",
+  ur: "🇵🇰 اردو",
+  fa: "🇮🇷 فارسی",
+
   "zh-CN": "🇨🇳 中文",
   "zh-TW": "繁體中文",
   ja: "🇯🇵 日本語",
@@ -39,9 +44,7 @@ const todo = {
   vi: "🇻🇳 Tiếng Việt",
   tr: "🇹🇷 Türkçe",
   
-  he: "🇮🇱 עִברִית",
-  ur: "🇵🇰 اردو",
-  fa: "🇮🇷 فارسی",
+
   hi: "🇮🇳 हिंदी",
   th: "🇹🇭 ไทย",
 }
