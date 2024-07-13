@@ -82,6 +82,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: 'https://discordts.com/fa',
       lastModified: new Date(),
     },
+    {
+      url: 'https://discordts.com/hi',
+      lastModified: new Date(),
+    },
+    {
+      url: 'https://discordts.com/th',
+      lastModified: new Date(),
+    },
     
 
 
