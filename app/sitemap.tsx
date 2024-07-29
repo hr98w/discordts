@@ -114,6 +114,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: 'https://discordts.com/hr',
       lastModified: new Date(),
     },
+    {
+      url: 'https://discordts.com/lv',
+      lastModified: new Date(),
+    },
+    {
+      url: 'https://discordts.com/lt',
+      lastModified: new Date(),
+    },
+    {
+      url: 'https://discordts.com/hu',
+      lastModified: new Date(),
+    },
     
 
 
