@@ -1,13 +1,13 @@
 export const defaultLocale = 'en'
-export const locales = ["", "en", "en-GB", "zh-CN", "zh-TW", 'ja', "ar", "es", "ru", "ko", "de", "fr", "it", "pt", "pt-BR", "el", "bg", "uk", "he", "ur", "fa","hi","th","id","ms","ca","cs","da","hr", "lv", "lt", "hu"];
+export const locales = ["", "en", "en-GB", "zh-CN", "zh-TW", 'ja', "ar", "es", "ru", "ko", "de", "fr", "it", "pt", "pt-BR", "el", "bg", "uk", "he", "ur", "fa","hi","th","id","ms","ca","cs","da","hr", "lv", "lt", "hu", "nl", "pl", "ro", "sr", "sv", "vi", "tr"];
 export const localeNames: any = {
   en: "🇺🇸 English",
   "en-GB": "🇬🇧 English",
-  
   "de": "🇩🇪 Deutsch",
   es: "🇪🇸 Español",
   it: "🇮🇹 Italiano",
   "fr": "🇫🇷 Français",
+  pt: "🇵🇹 Português",
   hi: "🇮🇳 हिंदी",
   th: "🇹🇭 ไทย",
   id: "🇮🇩 Bahasa Indonesia",
@@ -19,7 +19,13 @@ export const localeNames: any = {
   lv: "🇱🇻 Latviski",
   lt: "🇱🇹 Lietuviškai",
   hu: "🇭🇺 Magyar",
-  pt: "🇵🇹 Português",
+  nl: "🇳🇱 Nederlands",
+  pl: "🇵🇱 Polski",  
+  ro: "🇷🇴 Română",
+  sr: "🇷🇸 Srpski",
+  sv: "🇸🇪 Svenska",
+  vi: "🇻🇳 Tiếng Việt",
+  tr: "🇹🇷 Türkçe",
   "pt-BR": "🇧🇷 Português do Brasil",
   ru: "🇷🇺 Русский",
   el: "🇬🇷 Ελληνικά",
@@ -29,24 +35,11 @@ export const localeNames: any = {
   he: "🇮🇱 עִברִית",
   ur: "🇵🇰 اردو",
   fa: "🇮🇷 فارسی",
-
   "zh-CN": "🇨🇳 中文",
   "zh-TW": "繁體中文",
   ja: "🇯🇵 日本語",
   ko: "🇰🇷 한국어"
 };
-
-const todo_1 = ["id", "ms", "ca", "cs", "da", "hr", "it", "lv", "lt", "hu", "nl", "pl", "pt", "pt-BR", "ro", "sr", "sv", "vi", "tr", "el", "bg", "uk", "he", "ur", "fa", "hi", "th" ]
-const todo = {
-  nl: "🇳🇱 Nederlands",
-  pl: "🇵🇱 Polski",  
-  ro: "🇷🇴 Română",
-  
-  sr: "🇷🇸 Srpski",
-  sv: "🇸🇪 Svenska",
-  vi: "🇻🇳 Tiếng Việt",
-  tr: "🇹🇷 Türkçe",
-}
 
 
 const dictionaries: any = {

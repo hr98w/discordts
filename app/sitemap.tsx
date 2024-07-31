@@ -126,9 +126,34 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: 'https://discordts.com/hu',
       lastModified: new Date(),
     },
-    
-
-
+    {
+      url: 'https://discordts.com/nl',
+      lastModified: new Date(),
+    },
+    {
+      url: 'https://discordts.com/pl',
+      lastModified: new Date(),
+    },
+    {
+      url: 'https://discordts.com/ro',
+      lastModified: new Date(),
+    },
+    {
+      url: 'https://discordts.com/sr',
+      lastModified: new Date(),
+    },
+    {
+      url: 'https://discordts.com/sv',
+      lastModified: new Date(),
+    },
+    {
+      url: 'https://discordts.com/vi',
+      lastModified: new Date(),
+    },
+    {
+      url: 'https://discordts.com/tr',
+      lastModified: new Date(),
+    },
     {
       url: 'https://discordts.com/blog/timestamp',
       lastModified: new Date(),
