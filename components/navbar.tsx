@@ -9,6 +9,9 @@ import {
 } from "@nextui-org/navbar";
 import NextLink from "next/link";
 import { LangSwitcher } from "./langswitcher";
+import { GithubIcon } from "./icons";
+import { Link } from "@nextui-org/link";
+import { siteConfig } from "@/config/site";
 
 
 export const Navbar = () => {
@@ -44,18 +47,19 @@ export const Navbar = () => {
       <NavbarContent
         className="basis-1/5 sm:basis-full" justify="end"
       >
-        {/* <NavbarItem className="hidden sm:flex gap-2"> */}
+        <LangSwitcher/>
+        <NavbarItem className="hidden sm:flex gap-2">
           {/* <Link isExternal aria-label="Twitter" href={siteConfig.links.twitter}>
             <TwitterIcon className="text-default-500" />
           </Link> */}
           {/* <Link isExternal aria-label="Discord" href={siteConfig.links.discord}>
             <DiscordIcon className="text-default-500" />
           </Link> */}
-          {/* <Link isExternal aria-label="Github" href={siteConfig.links.github}>
+          <Link isExternal aria-label="Github" href={siteConfig.links.github}>
             <GithubIcon className="text-default-500" />
-          </Link> */}
+          </Link>
           {/* <ThemeSwitch /> */}
-        {/* </NavbarItem> */}
+        </NavbarItem>
         {/* <NavbarItem className="hidden lg:flex">{searchInput}</NavbarItem>
         <NavbarItem className="hidden md:flex">
           <Button
@@ -69,7 +73,7 @@ export const Navbar = () => {
             Sponsor
           </Button>
         </NavbarItem> */}
-        <LangSwitcher/>
+        
       </NavbarContent>
 
       {/* <NavbarContent className="sm:hidden basis-1 pl-4" justify="end">

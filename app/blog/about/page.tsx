@@ -35,7 +35,7 @@ export default function AboutPage() {
             </ul>
 
             <h2>Is DiscordTS.com open sourced?</h2>
-            <p className="text-[#888888]">Currently, DiscordTS.com is not open sourced, but we have plans to make it open source in the near future. We believe in the power of open source collaboration, which allows for transparency, community involvement, and continuous improvement. Opening our project to the community will enable developers to contribute enhancements, suggest new features, and ensure that DiscordTS.com evolves to meet the needs of its users. We look forward to welcoming contributions and feedback from the community.
+            <p className="text-[#888888]">Yes, DiscordTS.com is now open sourced. We believe in the power of open source collaboration, which allows for transparency, community involvement, and continuous improvement. Opening our project to the community will enable developers to contribute enhancements, suggest new features, and ensure that DiscordTS.com evolves to meet the needs of its users. We look forward to welcoming contributions and feedback from the community.
             </p>
 
             {/* <h2>How to contribute to DiscordTS.com</h2>
