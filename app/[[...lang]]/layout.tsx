@@ -34,7 +34,7 @@ export async function generateMetadata({
   }
 }: {
   params: {
-    lang : string[]
+    lang: string[]
   }
 }) {
   let lng
@@ -46,7 +46,7 @@ export async function generateMetadata({
   const dict = await getDictionary(lng)
   return {
     metadataBase: new URL('https://discordts.com'),
-  
+
     title: {
       default: dict["title"] + " - DiscordTS.com",
       template: `%s - DiscordTS.com`,
@@ -76,7 +76,7 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
   params: {
-    lang : string[]
+    lang: string[]
   }
 }) {
   let lng
@@ -88,7 +88,7 @@ export default function RootLayout({
   return (
     <html suppressHydrationWarning lang={lng} dir={dir(lng)}>
       <head>
-        <UmamiAnalytic/>
+        <UmamiAnalytic />
       </head>
       <body
         className={clsx(
@@ -98,35 +98,36 @@ export default function RootLayout({
       >
         <Providers themeProps={{ attribute: "class", defaultTheme: "light" }}>
           <div className="relative flex flex-col bg-[#424347] min-h-screen" >
-          {/* h-screen */}
+            {/* h-screen */}
             <Navbar />
             <main className="md:container md:mx-auto w-full flex-grow">
               {children}
 
+
               <footer className="flex w-full items-center justify-center py-3">
-              <div className="flex flex-row flex-wrap gap-1">
-              {Object.keys(localeNames).map((key: string) => {
-                const name = localeNames[key];
-                return (
-                  <Link
-                  className="flex-row w-24 items-center gap-2 text-current"
-                  key = {key}
-                  href={key}
-                  title={key}
-                >
-                  <p className="text-primary">{name}</p>
-                </Link>
-                );
-            })}
-            </div>
-              
-            </footer>
+                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2">
+                  {Object.keys(localeNames).map((key: string) => {
+                    const name = localeNames[key];
+                    return (
+                      <Link
+                        className="flex items-center justify-center w-full h-10 text-sm text-gray-600 bg-gray-100 bg-opacity-70 hover:bg-opacity-100 rounded"
+                        key={key}
+                        href={key}
+                        title={key}
+                      >
+                        <p className="text-primary">{name}</p>
+                      </Link>
+                    );
+                  })}
+                </div>
+              </footer>
+
             </main>
-            
+
           </div>
         </Providers>
-        <Analytics/>
-        <GoogleAnalytics/>
+        <Analytics />
+        <GoogleAnalytics />
       </body>
     </html>
   );
