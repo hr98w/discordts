@@ -104,7 +104,7 @@ export default function RootLayout({
               {children}
 
 
-              <footer className="flex w-full items-center justify-center py-3">
+              <footer className="flex flex-col w-full items-center justify-center py-3">
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2">
                   {Object.keys(localeNames).map((key: string) => {
                     const name = localeNames[key];
@@ -119,6 +119,9 @@ export default function RootLayout({
                       </Link>
                     );
                   })}
+                </div>
+                <div className="w-full text-center mt-4">
+                  <a href="https://woy.ai/" title="Woy AI Tools Directory" className="hidden-link text-gray-400">Woy AI Tools</a>
                 </div>
               </footer>
 
