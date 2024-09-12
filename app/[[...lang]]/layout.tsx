@@ -124,7 +124,6 @@ export default function RootLayout({
                   <a href="https://woy.ai/" title="Woy AI Tools Directory" className="hidden-link text-gray-400">Woy AI Tools</a>
                   <a href="https://fluxai.pro/" title="Flux AI Pro" className="hidden-link text-gray-400">Flux AI Pro</a>
                   <a href="https://aiwith.me" title="Discover thousands of AI Tools" className="hidden-link text-gray-400">AI With Me</a>
-                  <a href='https://aitooltrek.com' title='AI Tool Trek' className="hidden-link text-gray-400"> AI Tool Trek </a>
                 </div>
               </footer>
 
