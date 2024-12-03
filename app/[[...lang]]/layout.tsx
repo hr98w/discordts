@@ -121,9 +121,7 @@ export default function RootLayout({
                   })}
                 </div>
                 <div className="w-full text-center mt-4">
-                  <a href="https://woy.ai/" title="Woy AI Tools Directory" className="hidden-link text-gray-400">Woy AI Tools</a>
-                  <a href="https://fluxai.pro/" title="Flux AI Pro" className="hidden-link text-gray-400">Flux AI Pro</a>
-                  <a href="https://aiwith.me" title="Discover thousands of AI Tools" className="hidden-link text-gray-400">AI With Me</a>
+                  <a href="https://digitalmarketings.io/" title="Digital Marketing Tools" className="hidden-link text-gray-400">Digital Marketing Tools</a>
                 </div>
               </footer>
 
